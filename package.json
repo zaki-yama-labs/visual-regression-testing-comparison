@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test-ct": "playwright test -c playwright-ct.config.js"
   },
   "dependencies": {
     "eslint": "8.28.0",
@@ -16,6 +17,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.28.1",
     "@playwright/test": "^1.28.1"
   }
 }
