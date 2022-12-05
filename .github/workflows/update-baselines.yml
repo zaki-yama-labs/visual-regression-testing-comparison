@@ -11,16 +11,13 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-          cache: "npm"
+          cache: "yarn"
 
       - name: Install dependencies
-        run: npm install
+        run: yarn
 
-      - name: Build ladle
-        run: npm run build
-
-      - name: Serve ladle
-        run: npm run serve &
+      - name: Build Storybook
+        run: yarn build-storybook
 
       - name: Lost Pixel
         id: lp
