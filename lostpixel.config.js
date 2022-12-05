@@ -1,6 +1,6 @@
 module.exports = {
   storybookShots: {
-    storybookUrl: "/storybook-static",
+    storybookUrl: "./storybook-static",
   },
   generateOnly: true,
 };
