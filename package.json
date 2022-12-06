@@ -9,7 +9,9 @@
     "lint": "next lint",
     "test-ct": "playwright test -c playwright-ct.config.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lost-pixel": "lost-pixel",
+    "lost-pixel:update": "lost-pixel update"
   },
   "dependencies": {
     "eslint": "8.28.0",
@@ -31,6 +33,7 @@
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
-    "eslint-plugin-storybook": "^0.6.8"
+    "eslint-plugin-storybook": "^0.6.8",
+    "lost-pixel": "^2.23.0"
   }
 }
