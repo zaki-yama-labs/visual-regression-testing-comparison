@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test-ct": "playwright test -c playwright-ct.config.js",
     "storybook": "start-storybook -p 6006",
+    "storycap": "storycap --serverCmd \"yarn storybook\" http://localhost:6006 -o reg-suit-images",
     "build-storybook": "build-storybook",
     "lost-pixel": "lost-pixel",
     "lost-pixel:update": "lost-pixel update"
@@ -34,6 +35,11 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.8",
-    "lost-pixel": "^2.23.0"
+    "lost-pixel": "^2.23.0",
+    "reg-keygen-git-hash-plugin": "^0.12.1",
+    "reg-notify-github-plugin": "^0.12.1",
+    "reg-publish-s3-plugin": "^0.12.1",
+    "reg-suit": "^0.12.1",
+    "storycap": "^3.1.9"
   }
 }
