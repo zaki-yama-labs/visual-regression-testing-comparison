@@ -2,6 +2,8 @@
 
 VRT ライブラリ・サービスをいくつか試したリポジトリ。
 
+参考：　[2023年にVisual Regression Testingを始めるならどんな選択肢があるか](https://zenn.dev/loglass/articles/visual-regression-testing-comparison)
+
 ## 本リポジトリに含まれる VRT ライブラリ・サービス
 
 - [reg-suit](https://github.com/reg-viz/reg-suit) & Storycap
