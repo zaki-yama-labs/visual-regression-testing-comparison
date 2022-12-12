@@ -11,6 +11,7 @@
     "playwright-ct": "playwright test -c playwright-ct.config.js",
     "storybook": "start-storybook -p 6006",
     "storycap": "storycap --serverCmd \"yarn storybook\" http://localhost:6006 -o reg-suit-images",
+    "reg-suit": "reg-suit run",
     "build-storybook": "build-storybook",
     "lost-pixel": "lost-pixel",
     "lost-pixel:update": "lost-pixel update"
