@@ -7,13 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test-ct": "playwright test -c playwright-ct.config.js",
+    "playwright": "playwright test",
+    "playwright-ct": "playwright test -c playwright-ct.config.js",
     "storybook": "start-storybook -p 6006",
     "storycap": "storycap --serverCmd \"yarn storybook\" http://localhost:6006 -o reg-suit-images",
     "build-storybook": "build-storybook",
     "lost-pixel": "lost-pixel",
-    "lost-pixel:update": "lost-pixel update",
-    "chromatic": "npx chromatic --project-token=b1be76489a47"
+    "lost-pixel:update": "lost-pixel update"
   },
   "dependencies": {
     "eslint": "8.28.0",
